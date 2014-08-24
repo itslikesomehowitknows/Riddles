@@ -4,7 +4,7 @@ package com.ilsik.riddles;
 import android.content.res.XmlResourceParser;
 
 
-public class ResourceInputs extends MainActivity {
+public class ResourceInputs extends FullscreenActivity {
 
 	public ResourceInputs()
 	{

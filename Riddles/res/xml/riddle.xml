@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<riddles>
+
+    <riddle>
+        <id>
+1
+        </id>
+
+        <question>
+What gets wetter and wetter the more it dries?
+        </question>
+
+        <responses>
+            <response>
+Car
+            </response>
+            <response>
+Tap
+            </response>
+            <response>
+Cheeseboard
+            </response>
+        </responses>
+
+        <answer>
+Towel
+        </answer>
+    </riddle>
+    <riddle>
+        <id>
+2
+        </id>
+
+        <question>
+What goes up and down the stairs without moving?
+        </question>
+
+        <responses>
+            <response>
+Cat
+            </response>
+            <response>
+Stairlift
+            </response>
+            <response>
+Dog
+            </response>
+        </responses>
+
+        <answer>
+Rug
+        </answer>
+    </riddle>
+
+</riddles>
