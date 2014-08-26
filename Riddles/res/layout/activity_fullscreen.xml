@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="#000000"
+    android:fitsSystemWindows="true"
     tools:context="com.ilsik.riddles.FullscreenActivity" >
 
     <!--
@@ -16,8 +17,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:keepScreenOn="true"
-        android:text="@string/dummy_content"
+        android:keepScreenOn="false"
+        android:text=""
         android:textColor="#33b5e5"
         android:textSize="50sp"
         android:textStyle="bold" />
@@ -36,10 +37,11 @@
             android:id="@+id/fullscreen_content_controls"
             style="?metaButtonBarStyle"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay"
-            android:orientation="horizontal"
+            android:background="@drawable/background_menu"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical"
             tools:ignore="UselessParent" >
 
         </LinearLayout>
